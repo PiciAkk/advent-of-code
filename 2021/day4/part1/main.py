@@ -39,9 +39,7 @@ def main():
     inputFileName = (str(stdin.readline())).replace("\n", "")
     inputText = (open(inputFileName, "r").read()).split("\n")
     drawnNumbers, tables = formatInput(inputText)
-    tableInstances = []
-    for i in tables:
-        tableInstances.append(table(i))
+    tableInstances = list(map(table, tables))
     for i in drawnNumbers:
         for j in tableInstances:
             j.drawNumber(i)
