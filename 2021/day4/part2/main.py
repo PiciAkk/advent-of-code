@@ -42,10 +42,8 @@ def main():
     inputFileName = (str(stdin.readline())).replace("\n", "")
     inputText = (open(inputFileName, "r").read()).split("\n")
     drawnNumbers, tables = formatInput(inputText)
-    tableInstances = []
+    tableInstances = list(map(table, tables))
     winners = []
-    for i in tables:
-        tableInstances.append(table(i))
     for i in drawnNumbers:
         for j in tableInstances:
             if j.won:
