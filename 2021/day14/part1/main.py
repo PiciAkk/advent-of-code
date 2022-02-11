@@ -1,5 +1,4 @@
 from sys import stdin, stdout
-import statistics
 import collections
 
 def main():
@@ -13,8 +12,7 @@ def main():
     for i in inputText[2:len(inputText)]:
         pairInsertionRules.update({i.split(" -> ")[0]: i.split(" -> ")[1]})
     #print(pairInsertionRules)
-    for counter in range(10):
-        #print(counter+1)
+    for _ in [0]*10:
         polymerTemplate = []
         for i in range(len(polymerTemplateString)-1):
             polymerTemplate.append([polymerTemplateString[i], polymerTemplateString[i + 1]])

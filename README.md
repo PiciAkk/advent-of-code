@@ -9,37 +9,17 @@ I wrote all my solutions in Python (and a little bit of CoffeeScript :D), with t
 
 - Python 3.8.0+, and its built-in modules
 - CoffeeScript, and LiveScript compilers
+- C++ compiler
 - Coding skills
 
-## Directory structure
+## Search through files
+
+I wrote the solutions in a plenty of different languages, and I wanted to make sure that I could (and you could) find them all, so I made a search utility.
+
+I made the search tool in Python, and you can run it with:
+
+```bash
+python search.py
 ```
-Solutions
- ├─2021
- │  ├─day 1
- │  ├─day 2
- │  ├─day 3
- │  ├─day 4
- │  ├─day 5
- │  ├─day 6
- │  ├─day 7
- │  ├─day 8
- │  ├─day 9
- │  ├─day 10
- │  ├─day 11
- │  ├─day 12
- │  ├─day 13
- │  ├─day 14
- │  ├─day 15
- │  ├─day 16
- │  ├─day 17
- │  ├─day 18
- │  ├─day 19
- │  ├─day 20
- │  ├─day 21
- │  ├─day 22
- │  ├─day 23
- │  ├─day 24
- │  └─day 25
- └─2022
-    └─Coming soon :D
-```
+
+Then type in the year, day, part, and select the programming language.
