@@ -8,7 +8,7 @@ I wrote all my solutions in Python (and a little bit of CoffeeScript :D), with t
 ## Requirements
 
 - Python 3.8.0+, and its built-in modules
-- CoffeeScript compiler
+- CoffeeScript, and LiveScript compilers
 - Coding skills
 
 ## Directory structure
